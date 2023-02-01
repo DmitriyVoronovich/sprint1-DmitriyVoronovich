@@ -1,0 +1,19 @@
+.title_name {
+  height:40px;
+  width:210px;
+  font-size:32px;
+  font-weight:700;
+  line-height:40px;
+  text-align:left;
+  font-style:normal;
+  letter-spacing:0.1px;
+  color:#363636;
+  position:relative;
+  margin:9px 0 9px 285px;
+}
+
+@media (max-width:768px) {
+  .title_name {
+    margin:32px 0 22px 24px;
+  }
+}

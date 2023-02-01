@@ -1,0 +1,31 @@
+.profile {
+  position:relative;
+  display:flex;
+  margin-left:315px;
+  width:300px;
+  height:58px;
+}
+.profile_name {
+  width:106px;
+  height:18px;
+  position:relative;
+  margin:20px 16px 20px 120px;
+  font-style:normal;
+  font-weight:600;
+  font-size:14px;
+  line-height:18px;
+  text-align:right;
+  letter-spacing:0.1px;
+  color:#363636;
+}
+.profile_img {
+  width:58px;
+  height:58px;
+}
+
+@media (max-width:768px) {
+  .profile {
+    display:none;
+  }
+
+}

@@ -1,0 +1,63 @@
+.book_information {
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  padding:0;
+
+  width:1110px;
+  height:244px;
+}
+.book_information_title {
+  font-style:normal;
+  font-weight:700;
+  font-size:18px;
+  line-height:28px;
+  display:flex;
+  align-items:center;
+  letter-spacing:0.1px;
+  margin-bottom:16px;
+  color:#363636;
+}
+.book_information_line {
+  width:350px;
+  height:0;
+  border:1px solid #EBEBEB;
+  margin-bottom:16px;
+}
+.book_information_table {
+  display:flex;
+  width:1110px;
+  height:184px;
+}
+table {
+  border-collapse:separate;
+  border-spacing:0 16px;
+  table-layout:fixed;
+  font-style:normal;
+  font-weight:400;
+  font-size:16px;
+  line-height:24px;
+
+  display:flex;
+  align-items:center;
+  letter-spacing:0.1px;
+
+  color:#363636;
+}
+tr {
+  height:24px;
+  vertical-align:top;
+}
+table td:first-child {
+  width:170px;
+  color:#A7A7A7;
+}
+.book_information_table_one {
+  margin-right:146px;
+  width:329px;
+  height:184px;
+}
+.book_information_table_two {
+  width:611px;
+  height:168px;
+}

@@ -1,0 +1,61 @@
+.main_list {
+  position:relative;
+  width:279px;
+  height:824px;
+  margin-left:165px;
+  margin-top:62px;
+}
+.main_list_title{
+  width:255px;
+  height:36px;
+  font-style:normal;
+  font-weight:700;
+  font-size:18px;
+  line-height:28px;
+  letter-spacing:0.1px;
+  margin-bottom:16px;
+
+  border-bottom:1px solid black;
+  flex:none;
+  order:0;
+  flex-grow:0;
+}
+.main_list_terms {
+
+  font-style:normal;
+  font-weight:700;
+  font-size:18px;
+  line-height:28px;
+  letter-spacing:0.1px;
+  color:#363636;
+
+  flex:none;
+  order:0;
+  flex-grow:0;
+}
+.main_list_contract {
+  font-style:normal;
+  font-weight:700;
+  font-size:18px;
+  line-height:28px;
+  letter-spacing:0.1px;
+  color:#363636;
+
+  flex:none;
+  order:0;
+  flex-grow:0;
+}
+.active_item {
+  background:linear-gradient(231.58deg, #F83600 -53.35%, #F9D423 297.76%);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  background-clip:text;
+  text-fill-color:transparent;
+  border-color:#F83600;
+}
+
+@media (max-width:768px) {
+  .main_list {
+    display:none;
+  }
+}

@@ -1,0 +1,24 @@
+.logo {
+  position:absolute;
+  width:165px;
+  height:40px;
+  margin-top:9px;
+  margin-bottom:9px;
+  display:flex;
+}
+.logo_img {
+  width:40px;
+  height:40px;
+}
+.logo_name {
+  width:111px;
+  height:15.67px;
+  position:relative;
+  margin:12.33px 6px 12px 8px;
+}
+
+@media (max-width:768px) {
+  .logo {
+    display:none;
+  }
+}

@@ -1,0 +1,12 @@
+.social_linc {
+  width:168px;
+  position:relative;
+  display:flex;
+  margin-top:16px;
+  margin-bottom:16px;
+  margin-left:520px;
+}
+.social_logo {
+  height:24px;
+  padding-left:24px;
+}

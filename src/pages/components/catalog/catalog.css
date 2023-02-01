@@ -1,0 +1,11 @@
+.catalog {
+  margin-left:6px;
+}
+
+@media (max-width:768px){
+  .catalog {
+    width:640px;
+    margin-left:64px;
+    margin-top:32px;
+  }
+}

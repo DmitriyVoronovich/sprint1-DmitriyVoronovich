@@ -1,0 +1,14 @@
+.footer_container {
+  position:relative;
+  display:flex;
+  width:1110px;
+  height:56px;
+  margin:0 148.52px;
+  border-top:1px solid rgba(191, 196, 201, 1);
+}
+
+@media (max-width:768px) {
+  .footer_container{
+    width:640px;
+  }
+}
