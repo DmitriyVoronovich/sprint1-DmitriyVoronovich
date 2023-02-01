@@ -1,9 +1,9 @@
 import { useNavigate, useParams } from 'react-router-dom';
 
-import { BookPageMain } from '../components/book-page-main';
-import { dataOfBooks } from '../components/catalog';
-import { Footer } from '../components/footer';
-import { Header } from '../components/header';
+import { BookPageMain } from '../../components/book-page-main';
+import { Footer } from '../../components/footer';
+import { Header } from '../../components/header';
+import {dataOfBooks} from '../../utils/data';
 
 export const BookPage = () => {
   const navigate = useNavigate();

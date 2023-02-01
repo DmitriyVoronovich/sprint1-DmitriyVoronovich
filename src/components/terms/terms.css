@@ -1,0 +1,46 @@
+
+.term {
+  margin-top:62px;
+  margin-left:15px;
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  padding:0;
+  gap:32px;
+
+  position:relative;
+  width:825px;
+  height:1752px;
+}
+.terms_title {
+  font-style:normal;
+  font-weight:700;
+  font-size:32px;
+  line-height:40px;
+
+  letter-spacing:0.1px;
+
+  color:#363636;
+}
+@media(max-width:768px) {
+  .term {
+    margin-left:64px;
+    margin-top:32px;
+    width:640px;
+  }
+}
+@media(max-width:320px) {
+  .term {
+    margin-left:16px;
+    margin-top:24px;
+    width:288px;
+  }
+  .terms_title {
+    font-style:normal;
+    font-weight:700;
+    font-size:18px;
+    line-height:28px;
+    letter-spacing:0.1px;
+    color:#363636;
+  }
+}

@@ -1,0 +1,33 @@
+.genres_title {
+  font-style:normal;
+  font-weight:700;
+  font-size:18px;
+  line-height:28px;
+  letter-spacing:0.1px;
+  margin-bottom:16px;
+
+  background-clip:text;
+  text-fill-color:transparent;
+  flex:none;
+  order:0;
+  flex-grow:0;
+}
+.genres_list {
+  position:relative;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:flex-start;
+  padding:16px 20px;
+  gap:16px;
+  width:250px;
+  height:632px;
+  white-space:normal;
+}
+.active_item {
+  background:linear-gradient(231.58deg, #F83600 -53.35%, #F9D423 297.76%);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  background-clip:text;
+  border-color:#F83600;
+}

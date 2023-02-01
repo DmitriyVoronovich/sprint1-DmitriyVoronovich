@@ -5,6 +5,15 @@
   display:flex;
   position:relative;
 }
-
-
-
+@media (max-width:768px) {
+  .centre_page {
+    width:640px;
+    height:2100px;
+  }
+}
+@media (max-width:320px) {
+  .centre_page {
+    width:288px;
+    height:5100px;
+  }
+}

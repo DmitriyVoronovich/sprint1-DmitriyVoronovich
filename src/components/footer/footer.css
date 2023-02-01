@@ -1,0 +1,19 @@
+.footer {
+  position:relative;
+  width:1407.04px;
+  height:56px;
+  margin-left:16.48px;
+  margin-right:16.48px;
+  margin-top:62px;
+}
+
+@media(max-width:768px) {
+  .footer {
+    width:640px;
+  }
+}
+@media(max-width:320px) {
+  .footer {
+    width:320px;
+  }
+}

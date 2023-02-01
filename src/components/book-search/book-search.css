@@ -1,0 +1,94 @@
+.book_search {
+  width:350px;
+  height:38px;
+  background:#ffffff;
+  box-shadow:0 2px 4px rgba(191, 196, 201, 0.2), 0 3px 4px rgba(191, 196, 201, 0.18),
+    0 1px 5px rgba(191, 196, 201, 0.24);
+  border-radius:599px;
+  padding:10px 120px 10px 40px;
+  color:#a7a7a7;
+  border:#727272;
+  font-style:normal;
+  font-weight:400;
+  font-size:14px;
+  line-height:18px;
+
+  letter-spacing:0.1px;
+}
+form {
+  position:relative;
+}
+.book_rating {
+  height:38px;
+  width:148.1999969482422px;
+  border-radius:30px;
+  padding:10px 15.1px 10px 39.1px;
+  margin-left:16.9px;
+  color:#a7a7a7;
+  border:#727272;
+  box-shadow:0 2px 4px rgba(191, 196, 201, 0.2), 0 3px 4px rgba(191, 196, 201, 0.18),
+    0 1px 5px rgba(191, 196, 201, 0.24);
+}
+.input_form {
+  display:flex;
+  width:515.1px;
+}
+.book_search_icon {
+  position:absolute;
+  width:16px;
+  height:16px;
+  left:16px;
+  top:calc(50% - 16px / 2);
+}
+.book_rating_icon {
+  height:16px;
+  width:16px;
+  border-radius:0;
+  position:absolute;
+  left:30px;
+  top:calc(50% - 16px / 2);
+}
+
+@media (max-width:768px) {
+  .input_form {
+    width:439.1px;
+    height:38px;
+  }
+  .book_search {
+    width:274px;
+    height:38px;
+    padding:10px 44px 10px 40px;
+  }
+  .book_rating {
+    width:148.2px;
+    height:38px;
+    padding:10px 15.1px 10px 39.1px;
+  }
+}
+@media (max-width:320px) {
+  .input_form {
+    width:80px;
+  }
+  .book_search {
+    width:32px;
+    height:32px;
+    padding:0;
+  }
+  .book_rating_icon {
+    position:absolute;
+    left:8px;
+    top:8px;
+    padding:0;
+    margin:0;
+  }
+  .book_rating {
+    width:32px;
+    height:32px;
+    padding:0;
+  }
+  .book_rating_icon {
+    position:absolute;
+    left:26px;
+    top:10px;
+  }
+}

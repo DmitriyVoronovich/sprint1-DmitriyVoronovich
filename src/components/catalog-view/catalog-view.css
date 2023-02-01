@@ -1,0 +1,74 @@
+.button_icon_kub {
+  height:38px;
+  width:38px;
+  border-radius:50%;
+  border:#727272;
+  background-color:white;
+  box-shadow:0 2px 4px rgba(191, 196, 201, 0.2),0 3px 4px rgba(191, 196, 201, 0.18),0 1px 5px rgba(191, 196, 201, 0.24);
+  margin-left:217.9px;
+}
+.button_group {
+  display:flex;
+}
+.button_icon_kub svg {
+  fill:#A7A7A7;
+  height:19px;
+  width:19px;
+  margin:9.5px;
+}
+.button_icon_line {
+  height:38px;
+  width:38px;
+  border-radius:50%;
+  border:#727272;
+  background-color:white;
+  box-shadow:0 2px 4px rgba(191, 196, 201, 0.2),0 3px 4px rgba(191, 196, 201, 0.18),0 1px 5px rgba(191, 196, 201, 0.24);
+  margin-left:25.5px;
+}
+.button_icon_line svg {
+  fill:#A7A7A7;
+  height:19px;
+  width:19px;
+  margin:9.5px;
+  color:#727272;
+  filter:grayscale(100%);
+  -webkit-filter:grayscale(100%);
+}
+.active_icon {
+  background-color:#F83600;
+}
+.active_icon svg {
+  fill:white;
+}
+
+@media (max-width:768px) {
+  .button_icon_kub {
+    margin-left:108.9px;
+  }
+  .button_icon_line {
+    margin-left:16px;
+  }
+}
+
+@media (max-width:320px) {
+  .button_icon_kub {
+    margin-left:128px;
+    width:32px;
+    height:32px;
+  }
+  .button_icon_line {
+    margin-left:16px;
+    width:32px;
+    height:32px;
+  }
+  .button_icon_line svg {
+    height:16px;
+    width:16px;
+    margin:8px;
+  }
+  .button_icon_kub svg {
+    height:16px;
+    width:16px;
+    margin:8px;
+  }
+}

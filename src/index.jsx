@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { HashRouter, Route, Routes } from 'react-router-dom';
 
+import { ContractOffer } from './components/contract-offer';
+import { TermsOfUse } from './components/terms-of-use';
 import { BookPage } from './pages/book';
-import { ContractOffer } from './pages/components/contract-offer';
-import { TermsOfUse } from './pages/components/terms-of-use';
 import { MainPage } from './pages/main';
 
 import './index.css';
