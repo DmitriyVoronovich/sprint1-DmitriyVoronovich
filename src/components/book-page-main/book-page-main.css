@@ -159,6 +159,96 @@
 }
 .book_page_footer_rating_star {
   display:flex;
+  gap:12px;
+}
+
+@media(max-width:768px) {
+  .search_panel_container {
+    width:768px;
+    height:88px;
+  }
+  .search_panel_text {
+    font-weight:400;
+    font-size:16px;
+    line-height:24px;
+    color:#A7A7A7;
+  }
+  .book_page_main {
+    width:640px;
+    padding:0;
+    margin-left:64px;
+    margin-top:48px;
+    gap:32px;
+  }
+  .book_page_main_img {
+    width:136px;
+    height:198px;
+  }
+  .book_page_main_info {
+    width:472px;
+    gap:32px;
+  }
+  .book_page_main_info_title {
+    width:472px;
+    font-style:normal;
+    font-weight:700;
+    font-size:24px;
+    line-height:30px;
+    letter-spacing:0.1px;
+    color:#363636;
+  }
+  .book_page_main_info_author {
+    width:472px;
+    margin-top:0;
+  }
+  .book_page_main_info_status {
+    width:306px;
+    height:52px;
+    font-style:normal;
+    font-weight:600;
+    font-size:16px;
+    line-height:150%;
+    align-items:center;
+    text-align:center;
+    letter-spacing:0.2px;
+    margin:0;
+  }
+  .book_page_main_info_text {
+    margin-top:16px;
+  }
+  .book_page_main_info_description {
+    font-style:normal;
+    font-weight:400;
+    font-size:16px;
+    line-height:24px;
+    letter-spacing:0.1px;
+    color:#363636;
+    margin-top:0;
+    height:240px;
+  }
+  .book_page_main_info_description p {
+    margin:0;
+  }
+  p:last-child {
+    margin-top:20px;
+  }
+  .book_page_footer {
+    width:640px;
+    padding:0;
+    margin-left:64px;
+  }
+  .book_page_footer_rating_title {
+    font-weight:600;
+    font-size:16px;
+    line-height:24px;
+  }
+  .book_page_footer_rating_line {
+    width:305px;
+  }
+  .book_page_footer_rating_star {
+    width:24px;
+    height:24px;
+  }
 }
 
 

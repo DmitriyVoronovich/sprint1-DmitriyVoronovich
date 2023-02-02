@@ -41,6 +41,7 @@
 }
 .book_page_review_header__rating_star {
   display:flex;
+  gap:12px;
 }
 .book_page_review_text {
   width:730px;
